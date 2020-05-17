@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #e6e6e6;
+}
+#wrapper{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.main-pic{
+    background-image: url("htmlcss.png");
+    width: 1020px; 
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    margin:0 auto;
+}
+
+.container{
+    width: 960px;
+    padding: 30px; /*960 + 60 = 1020*/
+    background-color: white;
+    margin:0 auto;
+    height: 150px;
+}
+
+.chrome{
+    width: 32%;
+    height: 155px;
+    float: left;
+    padding-right: 1%;
+    border-right: 1px solid #e6e6e6;
+}
+.firefox{
+    width: 32%;
+    height: 155px;
+    float:left;
+    margin-left: 1%;
+    border-right: 1px solid #e6e6e6;
+}
+.edge{
+    width: 32%;
+    height: 155px;
+    float: right;
+}
