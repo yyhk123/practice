@@ -1,0 +1,13 @@
+body{
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.container{
+    background-color: #eee;
+}
+body{
+    margin-top: 33px;
+}
+.thumbnail .caption{
+    background-color: #ddd;
+}
