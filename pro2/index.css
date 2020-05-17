@@ -1,0 +1,109 @@
+/* .stvimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px; 
+    height: 550px;
+} */
+
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 14px;
+    font-weight: 0;
+    line-height: 0;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    background-color:white;
+}
+.header{
+    width: 950px;
+    height: 550px;
+    background-image: url("stv.jpg");
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#quote-1{
+    height: 75px;
+    text-align: center;
+    font-family:'Pacifico', cursive;
+    font-size: 25px;
+}
+p span {
+    border: 0 solid black;
+    padding: 12px;
+    position: relative;
+    background-color: white;
+}
+
+.content{
+    width: 1100px;
+    height: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.timeline-header{
+    position: relative;
+    top:10px;
+    left: 150px;
+    line-height: 120px;
+    padding-left: 30px;
+    font-size: 50px;
+    color: #ececec;
+    font-weight: bold;
+    height: 120px;
+    width: 768px;
+}
+
+.main-timelie{
+    height:700px;
+    width: 800px;
+    position: relative;
+    top:25px;
+    left:10px;
+    font-family: 'Dosis' , sans-serif;
+}
+
+.event-date{
+    width: 100px;
+    height:7px;
+    text-align: center;
+    float:left;
+    font-size:15px;
+    clear:left;
+    font-weight:bold;
+    padding: 4px 5px 6px 0;
+    border-top: 1px solid #ccc;
+
+    position: relative;
+    top:-1px;
+}
+
+
+
+.event-desc{
+    width: 625px;
+    float:left;
+    clear:right;
+    font-size: 15px;
+    padding: 8px 12px 8px 8px;
+    background-color: #f9f9f9;
+}
+
+.event-desc-nth-child {
+    border-bottom: 1px solid #ccc;
+}
+.event-desc-first-child {
+    border-top: 1px solid #ccc;
+    
+}
