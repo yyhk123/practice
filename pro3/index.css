@@ -19,9 +19,16 @@ body{
     margin:0 auto;
 }
 
+.horizontal-space{
+    position: relative;
+    height: 10px;
+    background-color: #e6e6e6;
+    
+}
+
 .container{
     width: 960px;
-    padding: 30px; /*960 + 60 = 1020*/
+    padding: 30px; /*960 + 30(pad left) + 30(pad right) = 1020*/
     background-color: white;
     margin:0 auto;
     height: 150px;
@@ -45,4 +52,81 @@ body{
     width: 32%;
     height: 155px;
     float: right;
+}
+
+.post-section{
+    background-color: white;
+    height: 430px; /*컨텐트 크기에 맞게 변결*/
+    width: 1020px;
+}
+
+.post{
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 40px;
+}
+.title{  
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 5px;
+}
+
+.pic-post{
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color: white;
+    padding-bottom: 170px;
+}
+.pic-one{
+    width: 300px;
+    height: 155px;
+    float: left;
+    padding-right: 15px
+}
+.pic-two{
+    width: 300px;
+    height: 155px;
+    float:left;
+    padding-left: 15px;
+    padding-right: 15px
+}
+.pic-three{
+    width: 300px;
+    height: 155px;
+    float: left;
+    padding-left: 15px;
+}
+.planet{
+    width: 300px;
+    height: 155px;
+}
+
+.text-link{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.left-link{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 470px;
+    float: left;
+}
+.right-link{
+    width: 470px;
+    padding-top: 10px;
+    float: right;
+}
+.blt-pnt{
+    padding-top: 200px;
+}
+
+.bullet-point{
+    padding-top: 5px;
+}
+
+.foot{
+    max-width: 1020px;
+    margin: 0 auto;
+    background-color: white;
 }
