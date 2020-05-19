@@ -126,7 +126,62 @@ body{
 }
 
 .foot{
-    max-width: 1020px;
+    width: 1020px;
     margin: 0 auto;
+    background-color: white;
+    display: block;
+}
+
+.foot-box{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.notice{
+    height: 40px;
+    padding-right: 30px;
+    border:  1px solid #e6e6e6;
+}
+.tit{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.all-box{
+    vertical-align: baseline;
+}
+.all-list{
+    height: 205px;
+    /* border-top: 1px solid black; */
+    border-bottom: 1px solid #e6e6e6;
+    border-left:  1px solid #e6e6e6;
+    border-right:  1px solid #e6e6e6; 
+}
+.all-list dl{
+    float: left;
+    width: 300px;
+    padding-left: 15px;
+}
+dt{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.gallery{
+    padding-top: 10px;
+    height: 195px;
+    border-right: 1px solid #e6e6e6;
+}
+.news{
+    padding-top: 10px;
+    height: 195px;
+    border-right: 1px solid #e6e6e6;
+}
+.service{
+    padding-top: 10px;
+    height: 195px;
+}
+.bot-whitespace{
+    width: 1020;
+    margin: 0 auto;
+    height: 20px;
     background-color: white;
 }
