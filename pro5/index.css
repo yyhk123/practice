@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: lightgoldenrodyellow;
+    padding: 30px 0;
+
+}
+.wrapper{
+    width: 1020px;
+    margin:0 auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 30px 30px;
+    overflow: hidden;
+}
+
+.title{
+    text-align: center;
+}
+.note{
+    padding: 20px 0;
+}
+legend{
+    margin-left: 10px;
+}
+fieldset{
+    padding: 10px 0 10px 15px;
+    margin: 10px 0;
+}
+.sub-title{
+    padding-bottom: 20px;
+}
+input{
+    margin: 10px 0;
+}
+/* textarea{
+    margin-top: 5px;
+    margin-bottom: 30px;
+} */
+
+.firstEssay{
+    width: 369px;
+    padding-bottom: 30px;
+}
+#count1{
+    float:right;
+}
+
+.secondEssay{
+    width: 369px;
+    padding-bottom: 30px;
+}
+#count2{
+    float:right;
+}
+
+.upload{
+    margin: 30px 20px 30px 0;
+    display: inline;
+}
+
+.submit button{
+    color: white;
+    background-color: #EE4F47;
+    border: none;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.submit{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.inputfile{
+    /*
+    <input type="file" id="file" name="myfiles[]" class="inputfile" multiple/>
+    이거만 있으면 file upload 쉽게 할수 있는데 input type="file" 는 디자인이 안됨
+    */
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    color: white;
+    background-color: #EE4F47;
+    border: none;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer; /* "hand" cursor */
+}
+#fileSelected{
+    max-width: 200px;
+    padding-left: 5px;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    /*
+    text-overflow:ellipsis; only works when the following are true:
+    The element's width must be constrained in px (pixels). Width in % (percentage) won't work.
+    The element must have overflow:hidden and white-space:nowrap set.
+     */
+    position: relative;
+    display: inline-block;
+}
+
+.personalDetailValid{
+    padding-left: 15px;
+}
+
+
