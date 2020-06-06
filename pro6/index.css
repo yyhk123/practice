@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #a9d7e9;
+    text-align: center;
+}
+
+.title{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.subtitle{
+    font-size: 20px;
+    padding: 30px 0 20px 0;
+}
+
+.form-row1{
+    /*필요 없는듯?*/
+    display: block;
+    padding: 3px 0;
+}
+.form-row2{
+    padding: 10px 0;
+}
+.labels{
+    width: 48%;
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+}
+.field{
+    width: 48%;
+    display: inline-block;
+    text-align: left;
+}
+.input-field{
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.select-field{
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.choice{
+    display: inline-block;
+    vertical-align: top; /* here */
+}
+.shift{
+    padding: 5px;
+    
+}
+.radbut-space{
+    padding-bottom: 5px;
+}
+.checkbox-space{
+    padding-bottom: 5px;
+}
+
+textarea{
+    font-size: 13px;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #c0c0c0;
+}
+
+.submit{
+    background-color: #6ba3ce;
+    padding: 7px;
+    font-size: 15px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #6ba3ce;
+    cursor: pointer;
+}
