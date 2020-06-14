@@ -105,6 +105,7 @@ img{
 .ending{
     color: white;
     display: table;
+    margin: auto;
 }
 .ending-wrapper{
     display: table-row;
@@ -129,6 +130,7 @@ footer{
     padding: 2em;
     display: flex;
 }
+
 .minimineral{
     width: 50%;
 }
