@@ -26,9 +26,7 @@ body{
 
 .welcome-wrapper{
     width: 75%;
-    height: 100%;
     margin: 0 auto;
-    
 }
 
 .welcome-title{
@@ -46,7 +44,6 @@ body{
     padding: 15px 20px;
     border: 1px solid #666;
     text-decoration: none;
-    
 }
 
 
