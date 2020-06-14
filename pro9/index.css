@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.welcome{
+    color: #f4f4f4;
+    min-height: 450px;
+}
+
+.welcome-img{
+    background: #333 url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.welcome-wrapper{
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.welcome-title{
+    font-size: 2.2em;
+    padding-top: 100px;
+}
+.welcome-content{
+    font-size: 1.1em;
+    padding: 20px 0 40px 0;
+}
+.read-more{
+    font-size: 1.1em;
+    background-color: #333333;
+    color: #f4f4f4;
+    padding: 15px 20px;
+    border: 1px solid #666;
+    text-decoration: none;
+}
+
+
+.introduction{
+    background-color: #eaeaea;
+    padding: 35px 0;
+}
+.content-wrapper{
+    position: relative;
+    padding: 0 1.5em;
+    width: 75%;
+    margin: 0 auto;
+}
+.content-title{
+    padding-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.courses{
+    background-color: #333;
+    padding: 2em;
+}
+.courses-wrapper{
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.course-content{
+    padding: 10%;
+}
+.course1{
+    background-color: #f4f4f4;
+    width: 50%;
+    margin-right: 20px;
+}
+.course2{
+    width: 50%;
+    background-color: #f4f4f4;
+    margin-right: 20px;
+}
+.course3{
+    width: 50%;
+    background-color: #f4f4f4;
+}
+
+.handle{
+    padding: 3em;
+    width: 75%;
+    margin: auto;
+}
+
+.ending{
+    color: white;
+    display: table;
+}
+.ending-wrapper{
+    display: table-row;
+}
+.contact{
+    background-color: #2690d4;
+    padding: 3em;
+    width: 50%;
+    display: table-cell;
+}
+.about{
+    background-color: #333;
+    padding: 3em;
+    width: 50%;
+    display: table-cell;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 2em;
+    display: flex;
+}
+.minimineral{
+    width: 50%;
+}
+.project-by{
+    width: 50%;
+}
+
+
+@media (max-width: 900px) {
+    .welcome-wrapper{
+        width: 90%;
+    }
+    .content-wrapper{
+        width: 90;
+    }
+    .courses{
+        background-color: #333;
+        margin:0;
+    }
+    .courses-wrapper{
+        width: 100%;
+        display: block;
+    }
+    .course1{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .course2{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .course3{
+        width: 100%;
+    }
+
+    .contact{
+        width: auto;
+        display: block;
+    }
+    .about{
+        width: auto;
+        display: block;
+    }
+
+    footer{
+        display: block;
+    }
+    .minimineral{
+        width: 100%;
+        height: 2em;
+    }
+    .project-by{
+        width: 100%;
+        height: 2em;
+    }
+    
+}
