@@ -20,15 +20,15 @@ body{
     background-size: cover;
     opacity: 0.9;
     width: 100%;
-    height: 450px;
+    min-height: 450px;
     z-index: -1;
-    position: absolute;
 }
 
 .welcome-wrapper{
-    justify-content: center;
     width: 75%;
+    height: 100%;
     margin: 0 auto;
+    
 }
 
 .welcome-title{
@@ -46,6 +46,7 @@ body{
     padding: 15px 20px;
     border: 1px solid #666;
     text-decoration: none;
+    
 }
 
 
@@ -63,7 +64,9 @@ body{
     padding-bottom: 15px;
     font-size: 1.2em;
 }
-
+.content{
+    margin-bottom: 10px;
+}
 .courses{
     background-color: #333;
     padding: 2em;
