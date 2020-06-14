@@ -139,7 +139,7 @@ footer{
 }
 
 
-@media (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .welcome-wrapper{
         width: 90%;
     }
