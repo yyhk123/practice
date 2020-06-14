@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+.img1{
+    background-image: url('city1.jpg');
+    height: 100%;
+    
+    /* without parallax scroll effect*/
+    /* position: relative;
+    background-size: cover;
+    opacity: 0.65; */
+
+    /* parallax scroll effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+
+}
+.main-title{
+    min-width: 405px;
+    /*middle ot screen*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.border{
+    font-size: 27px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    background-color: #111111;
+    padding: 20px;
+    letter-spacing: 7px;
+}
+.section1{
+    background-color: #f4f4f4;
+}
+.article{
+    color: #666666; 
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 50px;
+}
+.section-title{
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.content{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
+}
+
+
+.img2{
+    background-image: url('city2.jpg');
+    min-height: 400px;
+    
+    /*aligning center*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* parallax scroll effect*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+    
+}
+.title{
+    font-size: 27px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    letter-spacing: 7px;
+    min-width: 330px;
+}
+
+.section2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    background-color: #282e34;
+}
+
+.article2{
+    padding: 50px 80px;
+}
+
+.img3{
+    background-image: url('city3.jpg');
+    min-height: 400px;
+    
+    /*aligning center*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* parallax scroll effect*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+    
+}
+
+
+.last-img{
+    background-image: url('city1.jpg');
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* parallax scroll effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+
+}
